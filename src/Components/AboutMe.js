@@ -1,54 +1,60 @@
 import React, { Component } from 'react';
-import { Icon, Card  } from 'antd';
+import { Icon, Card, Button  } from 'antd';
 import Avatar from './Avatar';
+import { css } from 'emotion'
+
 
 
 class AboutMe extends Component {
   render() {
     return (
-      <div className='about-me' style={{paddingRight: '12.5%'}}>
-        <div className='about-me-row-1'>
+      <div className='about-me' style={{ paddingRight: '12.5%'}}>
+        <div className='about-me-row-1' style={{ backgroundColor:'rgb(255, 255, 255, .2'}}>
           <Avatar className='about-me-avatar'/> 
-          <h1 style={{ alignSelf: 'center', marginBottom: '0', color:'#F85552'}}>About Me:</h1>
+          <h1 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}>About Me:</h1>
         </div>
         <div className='about-me-row-2'>
-          <Card style={{ height: '222px', fontSize: '1rem', display: 'flex', width: '200px', justifyContent: 'center', alignContent: 'center', alignItems: 'center'  }}>
+          <Card style={{ height: '222px', fontSize: '1rem', display: 'flex', width: '200px', justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}>
             <div>
-            <h4 style={{ color:'#F85552'}}>LinkedIn: <a href="https://www.linkedin.com/in/nicholas-leask/"><Icon type="linkedin" style={{  pointerEvents: 'all', color: 'white' }}/></a></h4>
+            <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://www.linkedin.com/in/nicholas-leask/">LinkedIn <Icon type="linkedin" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`}/></a></h4>
             </div><hr/>
             <div>
-            <h4 style={{ color:'#F85552'}}>GitHub: <a href="https://github.com/LeaskN"><Icon type="github" style={{  pointerEvents: 'all', color: 'white' }}/></a></h4>
+            <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://github.com/LeaskN">GitHub <Icon type="github" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`}/></a></h4>
             </div><hr/>
             <div>
-            <h4 style={{ color:'#F85552'}}>Resume: <a href="/Media/Nic_Leask_Resume.pdf" download><Icon type="file-text" style={{  pointerEvents: 'all', color: 'white' }}/></a></h4>
+            <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="/Media/Nic_Leask_Resume.pdf" download>Resume <Icon type="file-text" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`}/></a></h4>
             </div><hr/>
             <div>
-            <h4 style={{ color:'#F85552'}}>Instagram: <a href="https://www.instagram.com/nesquicknic/"><Icon type="instagram" style={{  pointerEvents: 'all', color: 'white' }} /></a></h4>
+            <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://www.instagram.com/nesquicknic/">Instagram <Icon type="instagram" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`} /></a></h4>
             </div><hr/>
           </Card>
-          <Card style={{ height: '222px'}}>
-            <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+          <Card style={{ color:'#212121', height: '222px', backgroundColor:'rgb(255, 255, 255, .2'}}>
+            <span>
               Professionally, {' '} 
-            </span> 
-             I am a <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
-              full stack web developer, {' '} 
-            </span> with a passion for full stack applications. I'm currently working with <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span> I am a <span style={{ color:'black', fontWeight:'bold'}}>
+             full stack web developer, {' '} 
+            </span> with a passion for both <span style={{ color:'black', fontWeight:'bold'}}>
+              front-end {' '} 
+            </span> and <span style={{ color:'black', fontWeight:'bold'}}>
+              back-end  {' '} 
+            </span>development. I'm currently working with <span style={{ color:'black', fontWeight:'bold'}}>
               Javascript 
-            </span>, <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>, <span style={{ color:'black', fontWeight:'bold'}}>
               React 
-            </span>, <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>, <span style={{ color:'black', fontWeight:'bold'}}>
               Node.js 
-            </span>, <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>, <span style={{ color:'black', fontWeight:'bold'}}>
               HTML 
-            </span>, and <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>, and <span style={{ color:'black', fontWeight:'bold'}}>
               CSS 
-            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{ color:'black', fontWeight:'bold'}}>
               React {' '} 
-            </span>, however I am always working to improve my <span style={{fontSize:'14px', color:'#ED5556', fontWeight:'bold', fonStyle:'italic',}}>
+            </span>, however I am always working to improve my <span style={{ color:'black', fontWeight:'bold'}}>
               software engineering {' '} 
             </span>skills.        
           </Card>
         </div>
+          <Button href="/projects" style={{ color:"white" }} className="intro-button" ghost>VIEW PROJECTS<Icon type="play-circle" style={{ color: 'white' }} /></Button>
     </div>
     );
   }

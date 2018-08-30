@@ -33,10 +33,10 @@
   overflow: hidden;
   position: absolute;
   pointer-events: all;
-  z-index: -3;
 }
 .intro{
   width: 100%;
+  min-width: 650px;
   z-index: 5;
   font-size: 3em;
   display: flex;
@@ -47,6 +47,7 @@
 }
 .intro-button{
   font-size: 12px;
+  pointer-events: all;
 }
 .about-me{
   flex-direction: column;
@@ -61,6 +62,7 @@
   z-index: 5;
 }
 .about-me-row-1{
+  border: 1px solid white;
   font-family: 'Raleway', sans-serif;  
   color: #212121;
   z-index: 5;
@@ -74,7 +76,56 @@
   margin-top: 20px;
   padding: 20px;
   height: 250px;
-  border: 1px, white;
+}
+.projects{
+  flex-direction: column;
+  padding-left: 15%;
+  font-family: 'Raleway', sans-serif;  
+  color: #212121;
+  font-size: 3em;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 500px;
+}
+.navBar{
+  background-color: rgb(255, 255, 255, .5);
+  border: 1px solid white;
+  pointer-events: all;
+  min-height: 50px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.projectsBox{
+  width: 85vw;
+  display: flex;
+  margin-bottom: 10px;
+}
+.projectBox1{
+  display: flex;
+  width: 100%;
+  align-content: space-between;
+  border: 1px solid black;
+  pointer-events: all;
+}
+.projects-header{
+  /* padding-top: 50px; */
+  /* min-height: 200px; */
+  font-family: 'Raleway', sans-serif;  
+  color: #212121;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  z-index: 5;
+  margin-bottom: 40px;
+  background: rgb(255, 255, 255, .4);
+  border-radius: 20%;
+  margin-top: 20px;
+  border: 1px solid white;
 }
 .about-me-row-2{
   font-family: 'Raleway', sans-serif;  
@@ -93,9 +144,42 @@
 }
 .ant-card.ant-card-bordered{
   width: 90%;
-  background-color: rgb(33, 33, 33, .5);
+  background-color: rgb(33, 33, 33, .4);
   color: white;
 }
 #root{
   overflow: visible;
+}
+.card bg-dark text-white{
+  width: 100px;
+  height: 100px;
+}
+#thumbwrap {
+	position:relative;
+	margin:75px auto;
+	width:252px; height:252px;
+}
+.thumb img { 
+	/* border:1px solid #000; */
+	margin:3px;
+	float:left;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  scroll-behavior: auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
 }
