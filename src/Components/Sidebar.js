@@ -8,6 +8,7 @@ const menu = (
     <Menu.Item><a href="/Projects">Projects</a></Menu.Item>
     <Menu.Item><a href="/Resume">Resume</a></Menu.Item>
     <SubMenu title="My Websites">
+      <Menu.Item><a href="https://videosync.co">VideoSync</a></Menu.Item>
       <Menu.Item><a href="https://timetravel-8e8c7.firebaseapp.com/">Time Travel</a></Menu.Item>
       <Menu.Item><a href="https://basicnutritionus.firebaseapp.com/">Get Fit</a></Menu.Item>
       <Menu.Item><a href="https://leaskn.github.io./">Galvanize-Zombies</a></Menu.Item>
@@ -39,7 +40,7 @@ class Sidebar extends Component {
               <a href="https://github.com/LeaskN"><Icon type="github"/></a>
             </div><br/>
             <div>
-              <a href="/Media/Nic_Leask_Resume.pdf" download><Icon type="file-text"/></a>
+              <a href="/resume" ><Icon type="file-text"/></a>
             </div><br/>
             <div>
               <a href="https://www.instagram.com/nesquicknic/"><Icon type="instagram"/></a>
