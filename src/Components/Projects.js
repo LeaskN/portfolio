@@ -17,6 +17,11 @@ class Projects extends Component {
         </div> */}
         <Row className='projectsBox'>
           <Col span={6}>
+              <a href="https://videosync.co">
+                <img className="projectBox1" src="/Media/video_sync.png" alt=""/>
+              </a>
+          </Col>
+          <Col span={6}>
             <a href="https://anteup-app.firebaseapp.com/">
               <img className="projectBox1" src="/Media/AnteUp_Front_Page_Image.png" alt=""/>
             </a>
@@ -31,11 +36,6 @@ class Projects extends Component {
               <img className="projectBox1" src="/Media/GetFit_Front_Page_Image.png" alt=""/>
             </a>
           </Col>
-          <Col span={6}>
-            <a href="https://timetravel-8e8c7.firebaseapp.com/">
-              <img className="projectBox1" src="/Media/TimeToTravel_Front_Page_Image.png" alt=""/>
-            </a>
-          </Col>
           </Row>
           <Row className='projectsBox'>
           <Col span={6}>
@@ -44,9 +44,9 @@ class Projects extends Component {
               </a>
           </Col>
           <Col span={6}>
-              <a href="https://videosync.io">
-                <img className="projectBox1" src="/Media/video_sync.png" alt=""/>
-              </a>
+            <a href="https://timetravel-8e8c7.firebaseapp.com/">
+              <img className="projectBox1" src="/Media/TimeToTravel_Front_Page_Image.png" alt=""/>
+            </a>
           </Col>
         </Row>
           <Button href="/resume" style={{ color:"#212121" }} className="intro-button" ghost>VIEW RESUME<Icon type="play-circle" style={{ color: '#212121' }} /></Button>
