@@ -47,7 +47,7 @@ class AboutMe extends Component {
               HTML 
             </span>, and <span style={{ color:'black', fontWeight:'bold'}}>
               CSS 
-            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{ color:'black', fontWeight:'bold'}}>
+            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{ color:'black', fontWeight:'bold' }}>
               React {' '} 
             </span>, however I am always working to improve my <span style={{ color:'black', fontWeight:'bold'}}>
               software engineering {' '} 

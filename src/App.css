@@ -49,6 +49,9 @@
   font-size: 12px;
   pointer-events: all;
 }
+.headshot{
+  width: auto;
+}
 .about-me{
   flex-direction: column;
   padding-left: 15%;

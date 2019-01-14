@@ -5,7 +5,7 @@ class Avatar extends Component {
     return (
       <div className="avatarContainer">
         <div className="avatar">
-          <img className="headshot" src="/Media/Headshot.png" alt=""/>
+          <img className="headshot" src="/Media/nic_new_headshot_with_background.png" alt=""/>
         </div>
       </div>
     );
