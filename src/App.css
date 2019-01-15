@@ -55,7 +55,7 @@
 .about-me{
   flex-direction: column;
   padding-left: 15%;
-  font-family: 'Raleway', sans-serif;  
+  font-family: Raleway, sans-serif;  
   color: #212121;
   font-size: 3em;
   z-index: 5;
@@ -65,8 +65,7 @@
   z-index: 5;
 }
 .about-me-row-1{
-  border: 1px solid white;
-  font-family: 'Raleway', sans-serif;  
+  font-family: Raleway, sans-serif;  
   color: #212121;
   z-index: 5;
   display: flex;
@@ -74,16 +73,39 @@
   justify-content: center;
   z-index: 5;
   margin-bottom: 10%;
-  background: rgb(33, 33, 33, .8);
-  border-radius: 20%;
+  /* border: 1px solid white; */
+  /* background: rgb(33, 33, 33, .8); */
+  /* border-radius: 20%; */
+  /* background:rgb(255, 255, 255, .2); */
   margin-top: 20px;
   padding: 20px;
   height: 250px;
+
+}
+.about-me-row-2{
+  font-family: Raleway, sans-serif;  
+  color: #212121;
+  z-index: 5;
+  display: flex;
+  align-items: flex-end;
+  z-index: 5;
+  margin-bottom: 10%;
+  height: '222px';
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.about-me-info{
+  color:#212121;
+  height: 222px;
+  background: rgb(255, 255, 255, .2);
 }
 .projects{
   flex-direction: column;
   padding-left: 15%;
-  font-family: 'Raleway', sans-serif;  
+  font-family: Raleway, sans-serif;  
   color: #212121;
   font-size: 3em;
   z-index: 5;
@@ -115,8 +137,6 @@
   pointer-events: all;
 }
 .projects-header{
-  /* padding-top: 50px; */
-  /* min-height: 200px; */
   font-family: 'Raleway', sans-serif;  
   color: #212121;
   display: flex;
@@ -128,16 +148,6 @@
   border-radius: 20%;
   margin-top: 20px;
   border: 1px solid white;
-}
-.about-me-row-2{
-  font-family: 'Raleway', sans-serif;  
-  color: #212121;
-  z-index: 5;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  z-index: 5;
-  margin-bottom: 10%;
 }
 .headshot{
   height: 5em;
@@ -162,7 +172,6 @@
 	width:252px; height:252px;
 }
 .thumb img { 
-	/* border:1px solid #000; */
 	margin:3px;
 	float:left;
 }
@@ -172,7 +181,8 @@
 }
 .thumb:hover, .thumb:hover span { 
 	visibility:visible;
-	top:0; left:250px; 
+  top:0; 
+  left:250px; 
 	z-index:1;
 }
 

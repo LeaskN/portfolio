@@ -9,9 +9,9 @@ class AboutMe extends Component {
   render() {
     return (
       <div className='about-me' style={{ paddingRight: '12.5%'}}>
-        <div className='about-me-row-1' style={{ backgroundColor:'rgb(255, 255, 255, .2'}}>
+        <div className='about-me-row-1'>
           <Avatar className='about-me-avatar'/> 
-          <h1 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}>About Me:</h1>
+          <h1 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> About Me:</h1>
         </div>
         <div className='about-me-row-2'>
           <Card style={{ height: '222px', fontSize: '1rem', display: 'flex', width: '200px', justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}>
@@ -28,7 +28,7 @@ class AboutMe extends Component {
             <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://www.instagram.com/nesquicknic/">Instagram <Icon type="instagram" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`} /></a></h4>
             </div><hr/>
           </Card>
-          <Card style={{ color:'#212121', height: '222px', backgroundColor:'rgb(255, 255, 255, .2'}}>
+          <Card classname="about-me-info" style={{ color:'#212121', height: '222px', backgroundColor:'rgb(255, 255, 255, .2'}}>
             <span>
               Professionally, {' '} 
             </span> I am a <span style={{ color:'black', fontWeight:'bold'}}>
@@ -47,7 +47,7 @@ class AboutMe extends Component {
               HTML 
             </span>, and <span style={{ color:'black', fontWeight:'bold'}}>
               CSS 
-            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{ color:'black', fontWeight:'bold' }}>
+            </span>. I'm consistently working on new projects. Most recently these projects have been revolving around <span style={{ color:'black', fontWeight:'bold'}}>
               React {' '} 
             </span>, however I am always working to improve my <span style={{ color:'black', fontWeight:'bold'}}>
               software engineering {' '} 
