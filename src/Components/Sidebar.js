@@ -34,16 +34,19 @@ class Sidebar extends Component {
               </Dropdown>
             </div><br/>
             <div>
-              <a href="https://www.linkedin.com/in/nicholas-leask/"><Icon type="linkedin"/></a>
+              <a href="https://www.linkedin.com/in/nicholas-leask/" target="_blank" rel="noopener noreferrer"><Icon type="linkedin"/></a>
             </div><br/>
             <div>
-              <a href="https://github.com/LeaskN"><Icon type="github"/></a>
+              <a href="https://github.com/LeaskN" target="_blank" rel="noopener noreferrer"><Icon type="github"/></a>
             </div><br/>
             <div>
               <a href="/resume" ><Icon type="file-text"/></a>
             </div><br/>
             <div>
-              <a href="https://www.instagram.com/nesquicknic/"><Icon type="instagram"/></a>
+              <a href="https://twitter.com/LeaskNicholas" target="_blank" rel="noopener noreferrer"><Icon type="twitter"/></a>
+            </div><br/>
+            <div>
+              <a href="https://www.instagram.com/nesquicknic/" target="_blank" rel="noopener noreferrer"><Icon type="instagram"/></a>
             </div><br/>
           </div>
       </div>
