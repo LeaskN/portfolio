@@ -9,12 +9,6 @@ class Projects extends Component {
         <div className='projects-header'>
           <h1 style={{ margin: '0'}}>Projects:</h1>
         </div>
-        {/* <div className='navBar' >
-          <a href=" ">Pizza</a>
-          <a href=" ">REACT </a>
-          <a href=" " >CSS </a>
-          <a href=" ">JAVASCRIPT</a>
-        </div> */}
         <Row className='projectsBox'>
           <Col span={6}>
               <a href="https://videosync.co">
