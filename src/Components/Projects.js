@@ -9,7 +9,7 @@ class Projects extends Component {
         <div className='projects-header'>
           <h1 style={{ margin: '0'}}>Projects:</h1>
         </div>
-        <Row className='projectsBox'>
+        <Row className='projectsBox' style={{ display: 'flex'}}>
           <Col span={6}>
               <a href="https://videosync.co">
                 <img className="projectBox1" src="/Media/video_sync.png" alt=""/>
@@ -30,8 +30,8 @@ class Projects extends Component {
               <img className="projectBox1" src="/Media/GetFit_Front_Page_Image.png" alt=""/>
             </a>
           </Col>
-          </Row>
-          <Row className='projectsBox'>
+        </Row>
+        <Row className='projectsBox' style={{ display: 'flex' }}>
           <Col span={6}>
               <a href="http://university-matcher.surge.sh/">
                 <img className="projectBox1" src="/Media/University_Matcher_Front_Page.png" alt=""/>
@@ -40,6 +40,16 @@ class Projects extends Component {
           <Col span={6}>
             <a href="https://timetravel-8e8c7.firebaseapp.com/">
               <img className="projectBox1" src="/Media/TimeToTravel_Front_Page_Image.png" alt=""/>
+            </a>
+          </Col>
+          <Col span={6}>
+            <a href="https://dynamicmatrixcssposter.firebaseapp.com/">
+              <img className="projectBox1" src="/Media/DynamicMatrixCSSPoster.png" alt=""/>
+            </a>
+          </Col>
+          <Col span={6}>
+            <a href="https://starwarsempireposter.firebaseapp.com/">
+              <img className="projectBox1" src="/Media/JoinTheEmpire.png" alt=""/>
             </a>
           </Col>
         </Row>
