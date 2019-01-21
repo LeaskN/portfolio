@@ -119,6 +119,7 @@
   align-items: center;
   justify-content: flex-start;
   min-width: 500px;
+  scroll-behavior: smooth;
 }
 .projects-header{
   font-family: 'Raleway', sans-serif;  
@@ -130,24 +131,41 @@
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.projectsBox{
-  width: 85vw;
-  overflow: hidden;
-  display: flex;
-  position: relative;
-  margin-left: 0;
-  margin-right: 0;
-  zoom: 1;
-  display: block;
-  justify-content: space-evenly;
-  box-sizing: border-box;
-}
-.projectBox1{
-  display: flex;
-  width: 100%;
-  align-content: space-between;
-  border: 1px solid black;
+.projectsContainer{
+  columns: 20vw; 
+  column-gap: 5px;
+  font-size: 10%;
   pointer-events: all;
+  overflow: scroll;
+}
+.projectBox{
+  pointer-events: all;
+  padding: 2%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: rgba(56, 56, 56, 0.445);
+  break-inside: avoid-column;
+  margin-bottom: 1rem; 
+  margin-right: 0px;
+}
+
+.projectCard{
+  padding: 2%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: #2e2e2e;
+  break-inside: avoid-column;
+  margin-bottom: 1rem; 
+  margin-right: 0px
+}
+
+h1 {
+  margin-top: 0;
+  margin-left: 0.75rem;
+}
+
+.projectImage{
+  width: 100%;
 }
 .headshot{
   height: 5em;
