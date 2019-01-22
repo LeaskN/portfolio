@@ -46,8 +46,11 @@
   margin: 15%;
 }
 .intro-button{
+  top: 0;
+  left: 0;
   font-size: 12px;
   pointer-events: all;
+  position: absolute;
 }
 .headshot{
   width: auto;
@@ -132,6 +135,7 @@
   margin-top: 20px;
 }
 .projectsContainer{
+  margin-top: 10px;
   columns: 20vw; 
   column-gap: 5px;
   font-size: 10%;
