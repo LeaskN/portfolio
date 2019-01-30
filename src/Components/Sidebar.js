@@ -14,6 +14,7 @@ const menu = (
       <Menu.Item><a href="https://leaskn.github.io./">Galvanize-Zombies</a></Menu.Item>
       <Menu.Item><a href="http://university2-project.surge.sh/">University Matcher</a></Menu.Item>
       <Menu.Item><a href="https://anteup-app.firebaseapp.com/">Ante-Up</a></Menu.Item>
+      <Menu.Item><a href="https://glowingtext.firebaseapp.com/">Glowing-Text</a></Menu.Item>
     </SubMenu>
   </Menu>
 );

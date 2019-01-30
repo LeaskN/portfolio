@@ -6,7 +6,7 @@ class Projects extends Component {
   render() {
     return (
       <div className='projects' style={{ paddingRight: '12.5%'}}>
-        <div className='projects-header'>
+        <div className='projects-header' className="text" id="red">
           <h1 style={{ margin: '0'}}>Projects:</h1>
         </div>
         <Button href="/resume" style={{ color:"#212121" }} className="intro-button" ghost>VIEW RESUME<Icon type="play-circle" style={{ color: '#212121' }} /></Button>
@@ -49,6 +49,11 @@ class Projects extends Component {
           <div className="projectBox">
             <a href="https://starwarsempireposter.firebaseapp.com/">
               <img className="projectImage" src="/Media/JoinTheEmpire.png" alt=""/>
+            </a>
+          </div>
+          <div className="projectBox">
+            <a href="https://glowingtext.firebaseapp.com/">
+              <img className="projectImage" src="/Media/Glow.png" alt=""/>
             </a>
           </div>
         </div>

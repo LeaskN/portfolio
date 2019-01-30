@@ -3,8 +3,6 @@ import { Icon, Card, Button  } from 'antd';
 import Avatar from './Avatar';
 import { css } from 'emotion'
 
-
-
 class AboutMe extends Component {
   render() {
     return (
