@@ -15,6 +15,8 @@ const menu = (
       <Menu.Item><a href="http://university2-project.surge.sh/">University Matcher</a></Menu.Item>
       <Menu.Item><a href="https://anteup-app.firebaseapp.com/">Ante-Up</a></Menu.Item>
       <Menu.Item><a href="https://glowingtext.firebaseapp.com/">Glowing-Text</a></Menu.Item>
+      <Menu.Item><a href="https://starwarsempireposter.firebaseapp.com/">Empire Poster</a></Menu.Item>
+      <Menu.Item><a href="https://dynamicmatrixcssposter.firebaseapp.com/">Matrix Poster</a></Menu.Item>
     </SubMenu>
   </Menu>
 );

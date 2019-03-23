@@ -76,7 +76,7 @@
   align-content: center;
   justify-content: center;
   z-index: 5;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   padding: 20px;
   height: 250px;
 
@@ -88,7 +88,7 @@
   display: flex;
   align-items: flex-end;
   z-index: 5;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   height: '222px';
   font-size: 1rem;
   display: flex;
@@ -136,14 +136,21 @@
   margin-top: 20px;
 }
 .projectsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
   margin-top: 10px;
-  columns: 20vw; 
+  columns: 40vw; 
   column-gap: 5px;
   font-size: 10%;
   pointer-events: all;
   overflow: scroll;
 }
+
 .projectBox{
+  display: flex;
+  justify-content: center;
   pointer-events: all;
   padding: 2%;
   border: 1px solid #999;
@@ -152,8 +159,13 @@
   break-inside: avoid-column;
   margin-bottom: 1rem; 
   margin-right: 0px;
+  width: 20vw;
+  margin: .5vw;
 }
-
+.projectPicture{
+  max-width: 20vw;
+  max-height: 100px;
+}
 .projectCard{
   padding: 2%;
   border: 1px solid #999;
@@ -163,14 +175,9 @@
   margin-bottom: 1rem; 
   margin-right: 0px
 }
-
 h1 {
   margin-top: 0;
   margin-left: 0.75rem;
-}
-
-.projectImage{
-  width: 100%;
 }
 .headshot{
   height: 5em;
@@ -199,8 +206,8 @@ h1 {
 	float:left;
 }
 .thumb span { 
-	position:absolute;
-	visibility:hidden;
+	position: absolute;
+	visibility: hidden;
 }
 .thumb:hover, .thumb:hover span { 
 	visibility:visible;
@@ -219,76 +226,3 @@ h1 {
   transform: scale(1.5);
 }
 
-
-
-
-
-
-
-/* ADDING NEON TO TEXT comment in for text, too laggy to use with canvas */
-/* @import url('https://fonts.googleapis.com/css?family=Iceland|Monoton');
-body {
-  background-color: #222222;
-  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
-}
-#container {
-  width: 500px;
-  margin: auto;
-}
-#red {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-  pointer-events: all;
-}
-#red {
-  font-size: 1.5em;
-  color: #228DFF;
-  font-family: Monoton;
-  color: #FF1177;
-}
-#blue a {
-  font-size: 1.5em;
-  color: #228DFF;
-  font-family: Iceland;
-}
-#red:hover {
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-#blue a:hover {
-  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-  animation: neon2 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes neon2 {
-  from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
-  }
-  to {
-      text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
-  }
-}
-
-@keyframes neon1 {
-  from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
-  }
-  to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-  }
-}
-
-
-@media (max-width: 650px) {
-  #container {
-      width: 100%;
-  }
-  p {
-      font-size: 3.5em;
-  }
-} */
