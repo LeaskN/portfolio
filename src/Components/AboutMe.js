@@ -24,7 +24,7 @@ class AboutMe extends Component {
             </div><hr/>
             <div>
             <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://www.instagram.com/nesquicknic/">Instagram <Icon type="instagram" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`} /></a></h4>
-            </div><hr/>
+            </div>
           </Card>
           
           <Card classname="about-me-info" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '200px', color:'#212121', height: '400px', backgroundColor:'rgb(255, 255, 255, .2'}}>

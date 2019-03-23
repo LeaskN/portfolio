@@ -69,29 +69,23 @@
   z-index: 5;
 }
 .about-me-row-1{
+  display: flex;
   font-family: Raleway, sans-serif;  
   color: #212121;
   z-index: 5;
-  display: flex;
   align-content: center;
   justify-content: center;
-  z-index: 5;
-  margin-bottom: 1%;
-  padding: 10px;
-  height: 250px;
-
+  height: 225px;
 }
 .about-me-row-2{
+  display: flex;
   font-family: Raleway, sans-serif;  
   color: #212121;
   z-index: 5;
-  display: flex;
   align-items: flex-end;
-  z-index: 5;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
   height: '222px';
   font-size: 1rem;
-  display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
