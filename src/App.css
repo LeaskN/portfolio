@@ -139,8 +139,13 @@
   column-gap: 5px;
   font-size: 10%;
   pointer-events: all;
-  overflow: scroll;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
+.projectsContainer::-webkit-scrollbar { 
+  display: none; 
+} 
 
 .projectBox{
   display: flex;
