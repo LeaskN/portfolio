@@ -11,7 +11,23 @@ import Resume from "./Components/Resume";
 import NotFound from "./Components/NotFound";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {width: props.width};
+  }
+
+  componentWillMount(){
+    this.setState({width: window.innerWidth + 'px'});
+  }
   render() {
+    App.propTypes = {
+      width:React.propTypes
+     };
+     
+     App.defaultProps = {
+      width:'500px'
+     };
+     if(Number(this.state.width.slice(0,-2)) < 900) alert('This website has not been fully optimized for smaller screens yet. Click `Ok` to coninue');
     return (
       <div>
         <div className="app">
