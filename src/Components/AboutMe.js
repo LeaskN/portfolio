@@ -9,7 +9,7 @@ class AboutMe extends Component {
       <div className='about-me' style={{ paddingRight: '12.5%'}}>
         <div className='about-me-row-1'>
           <Avatar className='about-me-avatar'/> 
-          <h1 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> About Me:</h1>
+          <h2 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> About Me:</h2>
         </div>
         <div className='about-me-row-2'>
           <Card style={{ height: '400px', fontSize: '1rem', display: 'flex', width: '200px', justifyContent: 'center', alignContent: 'center', alignItems: 'center' }}>
@@ -27,7 +27,7 @@ class AboutMe extends Component {
             </div>
           </Card>
           
-          <Card classname="about-me-info" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '200px', color:'#212121', height: '400px', backgroundColor:'rgb(255, 255, 255, .2'}}>
+          <Card className="about-me-info" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '200px', color:'#212121', height: '400px', backgroundColor:'rgb(255, 255, 255, .2'}}>
             <span>
               Professionally, {' '} 
             </span> I am a <span style={{ color:'black', fontWeight:'bold'}}>
