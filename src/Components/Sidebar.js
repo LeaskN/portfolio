@@ -3,7 +3,6 @@ import { Icon, Menu, Dropdown } from 'antd';
 const SubMenu = Menu.SubMenu;
 const menu = (
   <Menu>
-    <Menu.Item><a href="/">Welcome</a></Menu.Item>
     <Menu.Item><a href="/about">About</a></Menu.Item>
     <Menu.Item><a href="/Projects">Projects</a></Menu.Item>
     <Menu.Item><a href="/Resume">Resume</a></Menu.Item>

@@ -6,7 +6,7 @@ import { css } from 'emotion'
 class AboutMe extends Component {
   render() {
     return (
-      <div className='about-me' style={{ paddingRight: '12.5%'}}>
+      <div className='about-me' style={{ width: '100%', paddingRight: '12.5%'}}>
         <div className='about-me-row-1'>
           <Avatar className='about-me-avatar'/> 
           <h2 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> About Me:</h2>

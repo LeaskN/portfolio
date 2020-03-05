@@ -10,7 +10,7 @@ class Intro extends Component {
         <div className="intro" style={{ fontWeight:'bold'}}>
           <div className="text" id="red">
             <div>
-                Hello, I'm Nicholas Leask,<hr/>
+                Hello, I'm Nicholas Leask<hr/>
             </div> 
             <div>
                 I'm a Fullstack Web Developer!
