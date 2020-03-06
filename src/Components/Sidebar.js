@@ -3,10 +3,7 @@ import { Icon, Menu, Dropdown } from 'antd';
 const SubMenu = Menu.SubMenu;
 const menu = (
   <Menu>
-    <Menu.Item><a href="/about">About</a></Menu.Item>
-    <Menu.Item><a href="/Projects">Projects</a></Menu.Item>
-    <Menu.Item><a href="/Resume">Resume</a></Menu.Item>
-    <SubMenu title="My Websites">
+    <SubMenu title="Direct Project Links">
       <Menu.Item><a target="blank" href="https://nebulaacademy.com">Nebula Academy</a></Menu.Item>
       <Menu.Item><a target="blank" href="https://aws.nebulaacademy.com">Nebula Academy: AWS</a></Menu.Item>
       <Menu.Item><a target="blank" href="https://csteach.nebulaacademy.com">Nebula Academy: CSTeach</a></Menu.Item>
@@ -21,6 +18,10 @@ const menu = (
       <Menu.Item><a target="blank" href="https://starwarsempireposter.firebaseapp.com/">Empire Poster</a></Menu.Item>
       <Menu.Item><a target="blank" href="https://dynamicmatrixcssposter.firebaseapp.com/">Matrix Poster</a></Menu.Item>
     </SubMenu>
+    <Menu.Item><a href="/">Home</a></Menu.Item>
+    <Menu.Item><a href="/about">About</a></Menu.Item>
+    <Menu.Item><a href="/Projects">All Projects</a></Menu.Item>
+    <Menu.Item><a href="/Resume">Resume</a></Menu.Item>
   </Menu>
 );
 

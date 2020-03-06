@@ -119,16 +119,18 @@ class Projects extends Component {
   render() {
     return (
       <div className='projects' style={{ paddingRight: '12.5%'}}>
-        <div className='projects-header' id="red">
+        <div className='projects-header' >
         <h2 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> Projects:</h2>
         </div>
-        <div className="projectsContainer">
+        <div className="selectContainer">
           <select className="filter" onChange={(e) => this.changeFilter(e)}style={{ marginLeft:'40%', marginRight:'40%', fontSize: '24px'}}  id="filters">
             {this.state.filters.map(filter =>(
                 <option key={filter} value={filter}>{filter}</option>
               ))
             }
           </select>
+        </div>
+        <div className="projectsContainer">
           {this.renderProjects()}
           <div  style={{width:'100%', display: 'flex', justifyContent:'center'}}>
           <Row style={{marginBottom:"40px"}} className="smallOff">

@@ -33,6 +33,19 @@
   pointer-events: all;
   z-index: 1;
 }
+.contact{
+  width: 90vw;
+  padding-left: 10vw;
+  z-index: 5;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactPointers{
+  pointer-events: all;
+}
 .intro{
   width: 100%;
   z-index: 5;
@@ -145,7 +158,6 @@ a.ant-btn:hover{
   align-content: center;
   justify-content: center;
   z-index: 5;
-  margin-bottom: 40px;
   margin-top: 20px;
 }
 .projectsContainer{
@@ -244,10 +256,17 @@ h1 {
   color: #2593FC;
   text-decoration: underline;
 }
+
 .zoom {
   transition: transform .2s; /* Animation */
   margin: 0 auto;
   scroll-behavior: auto;
+}
+
+.selectContainer{
+  height: 40px;
+  margin: 10px;
+  pointer-events: all;
 }
 
 .zoom:hover {
@@ -255,6 +274,7 @@ h1 {
 }
 .filter{
   width: auto;
+  margin: 0 !important;
   background-color: white;
   border-radius: 5px;
 }
@@ -312,18 +332,27 @@ h1 {
 @media(max-width: 450px){
   .about-me-info{
     padding-top: 50px !important;
-
+  }
+  .intro{
+    font-size: 20px !important;
+    margin-top: 0px;
+  }
+  .contact{
+    font-size: 20px !important;
+    margin-top: 0px;
   }
 }
 @media(max-width: 400px){
   .about-me-info{
     padding-top: 100px !important;
   }
+  
 }
 @media(max-width: 350px){
   .about-me-info{
     padding-top: 150px !important;
   }
+  
 }
 @media(max-width: 325px){
   .about-me-info{

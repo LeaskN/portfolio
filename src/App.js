@@ -8,6 +8,7 @@ import AboutMe from "./Components/AboutMe";
 import Canvas from "./Components/Canvas";
 import Projects from "./Components/Projects";
 import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
 import NotFound from "./Components/NotFound";
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
               <Route exact path='/about' component={ AboutMe } />
               <Route exact path='/projects' component={ Projects } />
               <Route exact path='/resume' component={ Resume } />
+              <Route exact path='/contact' component={ Contact } />
               <Route  path='*' component={ NotFound } />
             </Switch>
         </div>
