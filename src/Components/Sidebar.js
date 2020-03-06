@@ -52,9 +52,6 @@ class Sidebar extends Component {
             <div>
               <a href="https://twitter.com/LeaskNicholas" target="_blank" rel="noopener noreferrer"><Icon type="twitter"/></a>
             </div><br/>
-            <div>
-              <a href="https://www.instagram.com/nesquicknic/" target="_blank" rel="noopener noreferrer"><Icon type="instagram"/></a>
-            </div><br/>
           </div>
       </div>
     );

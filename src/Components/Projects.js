@@ -5,7 +5,7 @@ class Projects extends Component {
   constructor() {
     super();
     this.state = {
-      filters:['Select Filter', 'CSS', 'HTML', 'React', 'JavaScript', 'Personal', 'API', 'Express', 'Auth', 'Games' ],
+      filters:['Select Filter', 'React', 'JavaScript', 'Personal', 'API', 'Express', 'Auth', 'Games', 'CSS', 'HTML', ],
       projects: [
         this.NebulaAcademyBootcamp = {
           url: "https://code.nebulaacademy.com",

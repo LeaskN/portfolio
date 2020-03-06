@@ -22,9 +22,6 @@ class AboutMe extends Component {
             <div>
             <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="/Media/Nic_Leask_Resume.png" download>Resume <Icon type="file-text" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`}/></a></h4>
             </div><hr/>
-            <div>
-            <h4><a className={css`color: white; opacity: .95;&:hover{ color:#498490;}`} style={{ pointerEvents: 'all' }} href="https://www.instagram.com/nesquicknic/">Instagram <Icon type="instagram" className={css`color: white; opacity: .95;&:hover{ color:#2593FC;}`} /></a></h4>
-            </div>
           </Card>
           <Card className="about-me-info" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', maxWidth: '800px', minHeight: '400px', color:'#212121', backgroundColor:'rgb(255, 255, 255, .2'}}>
             <span>
