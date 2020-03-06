@@ -5,7 +5,7 @@ class Avatar extends Component {
     return (
       <div style={{ marginTop:'20vh', fontWeight:'bold', justifyContent:'center', alignContent:'center', zIndex:'1' }}>
         <h1>Navigation Error!</h1>
-        <h2>Choose an alternate link on the Sidebar?!</h2>
+        <h2>Choose an alternate link on the Sidebar?</h2>
       </div>
     );
   }

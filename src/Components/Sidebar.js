@@ -7,15 +7,19 @@ const menu = (
     <Menu.Item><a href="/Projects">Projects</a></Menu.Item>
     <Menu.Item><a href="/Resume">Resume</a></Menu.Item>
     <SubMenu title="My Websites">
-      <Menu.Item><a href="https://videosync.co">VideoSync</a></Menu.Item>
-      <Menu.Item><a href="https://timetravel-8e8c7.firebaseapp.com/">Time Travel</a></Menu.Item>
-      <Menu.Item><a href="https://basicnutritionus.firebaseapp.com/">Get Fit</a></Menu.Item>
-      <Menu.Item><a href="https://leaskn.github.io./">Galvanize-Zombies</a></Menu.Item>
-      <Menu.Item><a href="http://university2-project.surge.sh/">University Matcher</a></Menu.Item>
-      <Menu.Item><a href="https://anteup-app.firebaseapp.com/">Ante-Up</a></Menu.Item>
-      <Menu.Item><a href="https://glowingtext.firebaseapp.com/">Glowing-Text</a></Menu.Item>
-      <Menu.Item><a href="https://starwarsempireposter.firebaseapp.com/">Empire Poster</a></Menu.Item>
-      <Menu.Item><a href="https://dynamicmatrixcssposter.firebaseapp.com/">Matrix Poster</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://nebulaacademy.com">Nebula Academy</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://aws.nebulaacademy.com">Nebula Academy: AWS</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://csteach.nebulaacademy.com">Nebula Academy: CSTeach</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://code.nebulaacademy.com">Nebula Academy: Bootcamp</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://videosync.co">VideoSync</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://timetravel-8e8c7.firebaseapp.com/">Time Travel</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://basicnutritionus.firebaseapp.com/">Get Fit</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://leaskn.github.io./">Galvanize-Zombies</a></Menu.Item>
+      <Menu.Item><a target="blank" href="http://university2-project.surge.sh/">University Matcher</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://anteup-app.firebaseapp.com/">Ante-Up</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://glowingtext.firebaseapp.com/">Glowing-Text</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://starwarsempireposter.firebaseapp.com/">Empire Poster</a></Menu.Item>
+      <Menu.Item><a target="blank" href="https://dynamicmatrixcssposter.firebaseapp.com/">Matrix Poster</a></Menu.Item>
     </SubMenu>
   </Menu>
 );

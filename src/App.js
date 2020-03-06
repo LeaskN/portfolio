@@ -27,7 +27,7 @@ class App extends Component {
      App.defaultProps = {
       width:'500px'
      };
-     if(Number(this.state.width.slice(0,-2)) < 900) alert('This website has not been fully optimized for smaller screens yet. Click `Ok` to coninue');
+    //  if(Number(this.state.width.slice(0,-2)) < 900) alert('This website has not been fully optimized for smaller screens yet. Click `Ok` to coninue');
     return (
       <div>
         <div className="app">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, Button, Row } from 'antd';
+import { Button, Row} from 'antd';
 
 class Projects extends Component {
   constructor() {
@@ -11,19 +11,19 @@ class Projects extends Component {
           url: "https://code.nebulaacademy.com",
           image:"/Media/NebulaAcademyBootcamp.png",
           tags:['CSS', 'HTML', 'React', 'JavaScript', 'work'],
-          name: 'NebulaAcademy Bootcamp',
+          name: 'Nebula Academy Bootcamp',
         },
         this.NebulaAcademyAWS = {
           url: "https://aws.nebulaacademy.com",
           image:"/Media/NebulaAcademyAWS.png",
           tags:['CSS', 'HTML', 'React', 'JavaScript', 'work'],
-          name: 'NebulaAcademy AWS',
+          name: 'Nebula Academy AWS',
         },
         this.NebulaAcademyCSTeach = {
           url: "https://csteach.nebulaacademy.com",
           image:"/Media/NebulaAcademyTeachers.png",
           tags:['CSS', 'HTML', 'React', 'JavaScript', 'work'],
-          name: 'NebulaAcademy CSTeach',
+          name: 'Nebula Academy CSTeach',
         },
         this.NebulaAcademy = {
           url: "https://nebulaacademy.com",
@@ -120,17 +120,28 @@ class Projects extends Component {
     return (
       <div className='projects' style={{ paddingRight: '12.5%'}}>
         <div className='projects-header' id="red">
-          <h1 style={{ margin: '0'}}>Projects:</h1>
+        <h2 style={{ color:'#212121', alignSelf: 'center', marginBottom: '0', fontWeight:'bold'}}> Projects:</h2>
         </div>
-        <Button href="/resume" style={{ color:"#212121" }} className="intro-button" ghost>VIEW RESUME<Icon type="play-circle" style={{ color: '#212121' }} /></Button>
         <div className="projectsContainer">
-          <select onChange={(e) => this.changeFilter(e)}style={{width:'30%', marginLeft:'35%', marginRight:'35%', fontSize: '24px'}}  id="filters">
+          <select className="filter" onChange={(e) => this.changeFilter(e)}style={{ marginLeft:'40%', marginRight:'40%', fontSize: '24px'}}  id="filters">
             {this.state.filters.map(filter =>(
                 <option key={filter} value={filter}>{filter}</option>
               ))
             }
           </select>
           {this.renderProjects()}
+          <div  style={{width:'100%', display: 'flex', justifyContent:'center'}}>
+          <Row style={{marginBottom:"40px"}} className="smallOff">
+            <Button href="/contact" style={{ marginRight: "10px", color:"#FF3A46" }} className="intro-button" ghost>Contact</Button>
+            <Button href="/" style={{ color:"#212121" }} className="intro-button" ghost>Home</Button>
+            <Button href="/resume" style={{ marginLeft: "10px", color:"#FF3A46" }} className="intro-button" ghost>Resume</Button>
+          </Row>
+          <div className="smallOn">
+            <Button href="/contact" style={{ color:"#FF3A46", marginBottom: "10px", marginTop: "10px" }} className="intro-button" ghost>Contact</Button>
+            <Button href="/" style={{ color:"#212121", marginBottom: "10px"}} className="intro-button" ghost>Home</Button>
+            <Button href="/resume" style={{ color:"#FF3A46", marginBottom: "10px" }} className="intro-button" ghost>Resume</Button>
+          </div>
+        </div>
         </div>
     </div>
     );
